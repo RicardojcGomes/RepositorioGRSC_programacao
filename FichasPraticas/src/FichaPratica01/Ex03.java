@@ -19,11 +19,11 @@ public class Ex03 {
         lado2 = input.nextDouble();
 
         //area
-        resultado = numero1 * numero2;
+        resultado = lado1 * lado2;
         System.out.println("Área do retângulo: " + resultado);
 
         //Perimetro
-        resultado = 2 * (numero1 + numero2);
+        resultado = 2 * (lado1 + lado2);
         System.out.println("Perímetro do retângulo: " + resultado);
 
     }

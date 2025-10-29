@@ -9,20 +9,20 @@ public class Ex05 {
         Scanner input = new Scanner(System.in);
 
         //Decalrar variavies
-        double numero1, numero2, numero3, soma,mediaAritmetica, mediaponderada;
+        double nota1, nota2, nota3, soma,mediaAritmetica, mediaPonderada;
 
         //Ler numero
-        System.out.print("Insira o valor: ");
-        numero1 = input.nextDouble();
+        System.out.print("Insira a 1º nota: ");
+        nota1 = input.nextDouble();
 
-        System.out.print("Insira o valor: ");
-        numero2 = input.nextDouble();
+        System.out.print("Insira a 2º nota: ");
+        nota2 = input.nextDouble();
 
-        System.out.print("Insira o valor: ");
-        numero3 = input.nextDouble();
+        System.out.print("Insira a 3º nota: ");
+        nota3 = input.nextDouble();
 
         //soma
-        soma = numero1 + numero2 + numero3;
+        soma = nota1 + nota2 + nota3;
         System.out.println("Resultado dos valores:" + soma);
 
         //media aritmetica
@@ -30,11 +30,8 @@ public class Ex05 {
         System.out.println("Media aritmética: " + mediaAritmetica);
 
         //media ponderada
-        mediaponderada =
-
-
-
-
+        mediaPonderada = (nota1 * 0.20) + (nota2 * 0.30) + (nota3 * 0.50);
+        System.out.println("Media Ponderada: " + mediaPonderada);
 
 
 
