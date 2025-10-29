@@ -46,5 +46,7 @@ public class Ex08 {
         System.out.println("Quantos segundos tem a 5º musica");
         musica5 = input.nextDouble();
 
+        //nao faco ideia de como tirar aquilo 
+
     }
 }
