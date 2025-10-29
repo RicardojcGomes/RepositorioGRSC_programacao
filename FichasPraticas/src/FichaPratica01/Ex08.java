@@ -8,7 +8,7 @@ public class Ex08 {
         //import do scanner
         Scanner input = new Scanner(System.in);
 
-        //variações-
+        //variações
         double musica1, musica2, musica3, musica4, musica5;
 
 
