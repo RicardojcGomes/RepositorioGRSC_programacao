@@ -27,7 +27,7 @@ public class Ex07 {
 
         //Valor com desconto
         valor =  (produto1+produto2+produto3) - desconto;
-        System.out.println("valor com desconto: " +valor);
+        System.out.println("valor com desconto: " + valor);
 
 
 
