@@ -20,13 +20,11 @@ public class EX01 {
         System.out.print("Imtroduza um numero: ");
         numero2 = input.nextInt();
 
-        //se, entao , senao
+        //if / else
         if (numero1 > numero2 ) {
         System.out.println("Maior: " + numero1);
-    } else if (numero1 < numero2) {
-        System.out.println("Maior: " + numero2);
     } else {
-        System.out.println("Os numeros são iguais " + numero1);
+            System.out.println("Maior: " + numero2);
         }
 
     }

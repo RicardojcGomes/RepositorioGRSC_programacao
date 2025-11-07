@@ -15,7 +15,7 @@ public class Ex03 {
         System.out.print("Intorduza o salário: ");
         salario1 = input.nextDouble();
 
-        //
+        //apresentar
         if (salario1 <= 15000) {
             System.out.println("Paga taxa de 20%: " + salario1 * 0.20);
         }

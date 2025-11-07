@@ -23,7 +23,7 @@ public class Ex02 {
         if (salario1 <= 15000) {
             System.out.println("Paga taxa de 20% : " + salario1 * 0.20);
         }
-        else if (salario1 > 15000) {
+        else   {
             System.out.println("Paga taxa de 30% : " + salario1 * 0.30);
         }
 
@@ -31,10 +31,9 @@ public class Ex02 {
         if (salario2 <= 15000) {
             System.out.println("Paga taxa de 20%: " + salario2 * 0.20);
         }
-        else if (salario2 > 15000) {
+        else  {
             System.out.println("Paga taxa de 30%: " + salario2 * 0.30);
         }
-
 
     }
 }
