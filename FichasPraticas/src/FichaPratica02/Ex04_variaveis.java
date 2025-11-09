@@ -10,28 +10,54 @@ public class Ex04_variaveis {
 
         //variaveis
 
-        int lugar1, lugar2, lugar3, lugar4, lugar5, lugar6, lugar7, lugar8, posicao1;
+        int lugar;
 
         //ler a posiçãos
-        System.out.print("Introduza o seu lugar na corrida: ");
-        posicao1 = input.nextInt();
+        System.out.print("Insira o seu lugar que ficou na corrida: ");
+        lugar = input.nextInt();
 
-        //atribuir pontos as posições
+        switch (lugar) {
+            case 1:
+                System.out.println("Ganhou 10 pontos");
+                break;
 
-        lugar1 = 10;
-        lugar2 = 8;
-        lugar3 = 6;
-        lugar4 = 5;
-        lugar5 = 4;
-        lugar6 = 3;
-        lugar7 = 2;
-        lugar8 = 1;
+            case 2:
+                System.out.println("Ganhou 8 pontos");
+                break;
 
-        //Atribuir posição ao lugar e ponto
+            case 3:
+                System.out.println("Ganhou 6 pontos");
+                break;
 
-        if (posicao1 == lugar1) {
-            System.out.println("Ganhou" + lugar1 + " pontos");
+            case 4:
+                System.out.println("Ganhou 5 pontos");
+                break;
+
+            case 5:
+                System.out.println("Ganhou 4 pontos");
+                break;
+
+            case 6:
+                System.out.println("Ganhou 3 pontos");
+                break;
+
+            case 7:
+                System.out.println("Ganhou 2 pontos");
+                break;
+
+            case 8:
+                System.out.println("Ganhou 1 pontos");
+                break;
+
+            default:
+                System.out.println("Não ganhou pontos");
+                break;
+
+
+
+
         }
+
 
 
 
