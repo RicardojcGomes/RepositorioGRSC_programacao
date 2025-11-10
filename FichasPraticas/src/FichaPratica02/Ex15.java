@@ -1,3 +1,5 @@
+package FichaPratica02;
+
 import java.util.Scanner;
 
 public class Ex15 {
@@ -47,36 +49,35 @@ public class Ex15 {
                         System.out.println(n3 + " " + n2 + " " + n1);
                     }
                 }
-            break;
+                break;
 
-             case 'd':
-                 if (n1 >= n2 && n1 >= n3) {
-                     if (n2 >= n3) {
-                         System.out.println(n1 + " " + n2 + " " + n3);
-                     } else {
-                         System.out.println(n1 + " " + n3 + " " + n2);
-                     }
+            case 'd':
+                if (n1 >= n2 && n1 >= n3) {
+                    if (n2 >= n3) {
+                        System.out.println(n1 + " " + n2 + " " + n3);
+                    } else {
+                        System.out.println(n1 + " " + n3 + " " + n2);
+                    }
 
-                 } else if (n2 >= n1 && n2 >= n3) {
-                     if (n1 >= n3) {
-                         System.out.println(n2 + " " + n1 + " " + n3);
-                     } else {
-                         System.out.println(n2 + " " + n3 + " " + n1);
-                     }
+                } else if (n2 >= n1 && n2 >= n3) {
+                    if (n1 >= n3) {
+                        System.out.println(n2 + " " + n1 + " " + n3);
+                    } else {
+                        System.out.println(n2 + " " + n3 + " " + n1);
+                    }
 
-                 } else {
-                     if (n1 >= n2) {
-                         System.out.println(n3 + " " + n1 + " " + n2);
-                     } else {
-                         System.out.println(n3 + " " + n2 + " " + n1);
-                     }
-                 }
-             break;
+                } else {
+                    if (n1 >= n2) {
+                        System.out.println(n3 + " " + n1 + " " + n2);
+                    } else {
+                        System.out.println(n3 + " " + n2 + " " + n1);
+                    }
+                }
+                break;
 
             default:
                 System.out.println("Caracter errado");
-            break;
+                break;
         }
-
     }
 }
