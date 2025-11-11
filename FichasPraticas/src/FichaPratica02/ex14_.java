@@ -13,13 +13,13 @@ public class ex14_ {
         int n1,n2, n3;
 
         //ler variavies
-        System.out.print("Introduza oum numero: ");
+        System.out.print("Introduza o 1º numero: ");
         n1 = input.nextInt();
 
-        System.out.print("Introduza oum numero: ");
+        System.out.print("Introduza o 2º numero: ");
         n2 = input.nextInt();
 
-        System.out.print("Introduza oum numero: ");
+        System.out.print("Introduza o 3º numero: ");
         n3 = input.nextInt();
 
         //ler

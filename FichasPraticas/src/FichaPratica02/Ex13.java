@@ -17,13 +17,18 @@ public class Ex13 {
         System.out.print("Introduza os minutos: ");
         minuto = input.nextInt();
 
+        //apresnetar em formato 12
+
         if (hora > 12) {
-            System.out.println((hora - 12)+ ": " + minuto + " PM");
-        } else if (hora < 12 && hora != 0 ) {
+            System.out.println((hora - 12)+ ":" + minuto + " PM");
+        }
+        else if (hora < 12 && hora != 0 ) {
             System.out.println(hora + ": " + minuto + " AM");
-        } else if (hora == 0 ) {
+        }
+        else if (hora == 0 ) {
             System.out.println( 12 + ": " + minuto + " AM");
-        } else if (hora == 12) {
+        }
+        else {
             System.out.println(12 + ": " + minuto + " PM");
         }
 
