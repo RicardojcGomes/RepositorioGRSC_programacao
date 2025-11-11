@@ -26,20 +26,20 @@ public class Ex10 {
 
         switch (operador){
             case '+' :
-                System.out.println( "Resultado: = " + (n1 + n2));
+                System.out.println( "Resultado = " + (n1 + n2));
                 break;
 
             case '-' :
-                System.out.println( "Resultado: = " + (n1 - n2));
+                System.out.println( "Resultado = " + (n1 - n2));
                 break;
 
             case '*' :
-                System.out.println( " resultado: = " + (n1 * n2));
+                System.out.println( " resultado = " + (n1 * n2));
                 break;
 
             case '/' :
                 if (n2 != 0) {
-                    System.out.println( " resultado: = " + (n1 / n2));
+                    System.out.println( " resultado = " + (n1 / n2));
                 }
                 else {
                     System.out.println("A operação não é possível!");

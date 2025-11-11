@@ -9,14 +9,14 @@ public class Ex11 {
         Scanner input = new Scanner(System.in);
 
         //variaveis
-        int saldo, movimento, saldoFinal;
+        double saldo, movimento, saldoFinal;
 
         //ler variaveis
         System.out.print("Introduza o seu saldo: ");
-        saldo = input.nextInt();
+        saldo = input.nextDouble();
 
         System.out.print("Introduza o valor a movimentar: ");
-        movimento = input.nextInt();
+        movimento = input.nextDouble();
 
         //saldo final
         saldoFinal = saldo + movimento;
