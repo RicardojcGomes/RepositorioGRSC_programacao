@@ -12,16 +12,16 @@ public class Ex05 {
 
         System.out.print("Introduza um numero: ");
         num1 = input.nextInt();
-        input.nextLine();
 
-        System.out.print("Introduza uma mensagem: ");
+        System.out.print("Mensagem: ");
         mensagem = input.nextLine();
+        input.nextLine();
 
         numsms = 1;
 
         while (numsms <= num1) {
             System.out.println( mensagem);
-            numsms = numsms +1;
+            numsms = numsms + 1;
 
         }
 

@@ -19,7 +19,7 @@ public class Ex06 {
 
         while (contador >= num1 && contador <= num2) {
             System.out.println(contador);
-            contador= contador +1;
+            contador = contador +1;
 
         }
 

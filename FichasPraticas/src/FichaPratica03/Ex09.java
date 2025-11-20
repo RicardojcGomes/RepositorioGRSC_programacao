@@ -9,37 +9,28 @@ public class Ex09 {
 
         int num, soma, contagem, media;
 
+        num = 0;
         soma = 0;
         contagem = 0;
 
-        System.out.print("Introduza um numero (-1 para terminar): ");
-        num = inpu.nextInt();
 
-
-        while (num != -1 ) {
-
-            soma = soma + num;
-            contagem = contagem + 1;
+        while (num != -1) {
 
             System.out.print("Introduza um numero: ");
             num = inpu.nextInt();
 
+            soma = soma + num;
+            contagem = contagem + 1;
+
         }
 
-        if (contagem > 0 ) {
-            media = soma/ contagem;
+        if (contagem > 0) {
+            media = soma / contagem;
             System.out.println("A media é: " + media);
 
         } else {
             System.out.println("Não forma itroduzidos números válidos!");
         }
-
-
-
-
-
-
-
 
 
     }

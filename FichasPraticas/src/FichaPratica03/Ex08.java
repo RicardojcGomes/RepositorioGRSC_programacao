@@ -7,7 +7,7 @@ public class Ex08 {
 
         Scanner input = new Scanner(System.in);
 
-        int num, inicio, fim, contador;
+        int num, inicio, fim;
 
         System.out.print("Introduza um numero: ");
         num = input.nextInt();
@@ -20,5 +20,7 @@ public class Ex08 {
             inicio = inicio +1;
 
         }
+
+
     }
 }

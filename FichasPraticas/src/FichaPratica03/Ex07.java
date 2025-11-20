@@ -10,8 +10,8 @@ public class Ex07 {
 
         while (num <= 100){
 
-            soma = soma + num;
             System.out.println(num);
+            soma = soma + num;
             num = num +1;
 
         }
