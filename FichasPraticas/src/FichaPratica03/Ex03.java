@@ -1,13 +1,15 @@
 package FichaPratica03;
 
-public class Ex01 {
+public class Ex03 {
     public static void main(String[] args) {
 
-       int numero =1;
+        int numero = 531;
 
-        while (numero <= 250) {
+        while (numero <= 750) {
             System.out.println(numero);
-            numero = numero + 1;
+            numero = numero + 2;
         }
+
+
     }
 }
