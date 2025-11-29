@@ -3,7 +3,7 @@ package FichaPratica03;
 import java.util.Scanner;
 
 public class Ex14_1 {
-    public static void main() {
+   public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
