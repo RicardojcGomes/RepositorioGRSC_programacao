@@ -3,64 +3,33 @@ package FichaPratica05;
 import java.util.Scanner;
 
 public class Ex05 {
-    static void main(String[] args) {
+
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
-        //declarar vetor
 
-        int [] lista = new int[10];
+        //Declarar vetor
 
+        int[] lista = new int[10];
 
-        //ler e guardar numeros
+        int soma = 0;
 
-        for (int i = 0; i < lista.length; i++){
+        //ler e guardar resultados
+
+        for (int i = 0; i < lista.length; i++) {
             System.out.print("Introduza um numero: ");
             lista[i] = input.nextInt();
+            soma = soma + lista[i];
         }
 
+        int media;
 
-        //ler o vetor e apresentar resulado
-        boolean crescente = true;
+        media = soma / lista.length;
 
-        for (int i = 0; i < lista.length - 1; i++){
-
-            if (lista[i] < lista[i + 1]){
-
-            }else {
-                crescente = false;
-                break;
-            }
-
-        }
-
-        if (crescente) {
-            System.out.println("Esta por ordemm crescente!");
-
-        } else {
-            System.out.println("Não esta por ordem crescente!");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("A média dos elementos é: " + media);
 
 
     }
+
 }
