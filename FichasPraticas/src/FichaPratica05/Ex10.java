@@ -16,7 +16,7 @@ public class Ex10 {
         for (int i =0; i < lista.length; i++){
 
             for (int j = 0; j < lista[0].length; j++){
-                System.out.print("Insira na matriz [" + i + "][" + j + "]: ");
+                System.out.print("Insira o numero na matriz [" + i + "][" + j + "]: ");
                 lista[i][j] = input.nextInt();
 
             }
@@ -39,7 +39,7 @@ public class Ex10 {
 
        //pedir numero a procurar
        int procurar;
-        int contador =0;
+        int contador = 0;
 
         System.out.print("Insira o número que pretende procurar: ");
         procurar = input.nextInt();
