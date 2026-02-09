@@ -3,7 +3,8 @@ package FichaPratica05;
 import java.util.Scanner;
 
 public class Ex02 {
-    static void main() {
+    public static void main(String[] args) {
+
 
         Scanner input = new Scanner(System.in);
 
@@ -27,14 +28,6 @@ public class Ex02 {
         }
 
         System.out.println("Total anual: " + total);
-
-
-
-
-
-
-
-
 
 
     }
